@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EASY GAME</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="loader">Loading...</div>
+
+<div id="app" class="hidden">
+
+  <div class="header">
+    <h2>EASY GAME</h2>
+    <div id="balance">₹0</div>
+  </div>
+
+  <div id="content"></div>
+
+  <div class="nav">
+    <button onclick="showPage('home')">Home</button>
+    <button onclick="showPage('games')">Games</button>
+    <button onclick="showPage('wallet')">Wallet</button>
+    <button onclick="showPage('profile')">Profile</button>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+<script src="games.js"></script>
+
+</body>
+</html>
